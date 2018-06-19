@@ -5,7 +5,7 @@ public class App {
 		int m = 0; // 文字列変換対象数値
 		StringBuilder result = new StringBuilder(); // 結果格納文字列
 
-		m = Integer.parseInt(args[args.length]);
+		m = Integer.parseInt(args[args.length-1]);
 
 		for (int i = 0, l = args.length - 1; i < l; i++) {
 			String output = String.format("argv[%s]: %s", i, args[i]);

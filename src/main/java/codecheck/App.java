@@ -8,8 +8,8 @@ public class App {
 		m = Integer.parseInt(args[args.length-1]);
 
 		for (int i = 0, l = args.length - 1; i < l; i++) {
-			String output = String.format("argv[%s]: %s", i, args[i]);
-			System.out.println(output);
+//			String output = String.format("argv[%s]: %s", i, args[i]);
+//			System.out.println(output);
 			result = result.append(fizzbuzz(m, args[i]));
 		}
 
